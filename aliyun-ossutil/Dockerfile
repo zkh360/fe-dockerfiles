@@ -1,7 +1,8 @@
 FROM golang:1.16.12-alpine3.15 as build
 ENV OSSUTIL_VERSION 1.7.8
 WORKDIR /go/src/aliyun
-RUN curl -Lo /go/src/aliyun/ossutil.zip https://github.com/aliyun/ossutil/archive/${OSSUTIL_VERSION}.zip && \
+RUN apk add --no-cache curl && \
+    curl -Lo /go/src/aliyun/ossutil.zip https://github.com/aliyun/ossutil/archive/${OSSUTIL_VERSION}.zip && \
     unzip /go/src/aliyun/ossutil.zip && \
     cd ossutil-${OSSUTIL_VERSION} && \
     go mod init github/com/aliyun/ossutil-${OSSUTIL_VERSION} && \
