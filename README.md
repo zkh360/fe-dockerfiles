@@ -7,6 +7,7 @@ A collection of useful dockerfiles for frontend engineers.
 
 - [ ] nextjs
 - [ ] nestjs
-- [ ] graphicsmagick
+- [x] graphicsmagick
 - [ ] puppeteer
+- [x] ossutil
 

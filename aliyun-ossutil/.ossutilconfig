@@ -1,0 +1,5 @@
+[Credentials]
+language=CH
+accessKeyID=***
+accessKeySecret=***
+endpoint=oss-cn-beijing.aliyuncs.com
