@@ -6,8 +6,7 @@ A collection of useful dockerfiles for frontend engineers.
 ## Todo
 
 - [x] nextjs
-- [ ] nestjs
+- [x] nestjs
 - [x] graphicsmagick
-- [ ] puppeteer
+- [x] puppeteer
 - [x] ossutil
-
