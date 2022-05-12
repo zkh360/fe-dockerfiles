@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "koa": "^2.13.4",
+    "single-file": "github:gildas-lormeau/SingleFile#master"
+  }
+}
