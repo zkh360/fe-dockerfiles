@@ -10,5 +10,5 @@ A collection of useful dockerfiles for frontend engineers.
 - [x] graphicsmagick
 - [x] puppeteer
 - [x] ossutil
-- [ ] singlefile
+- [x] singlefile
 - [ ] deno
